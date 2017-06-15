@@ -1,11 +1,11 @@
 <?php 
 	class model { 
-        public function jsonArray($file) { 
-            $input_json = file_get_contents("./data/".$file, FILE_USE_INCLUDE_PATH); 
+		public function jsonArray($file) { 
+			$input_json = file_get_contents("./data/".$file, FILE_USE_INCLUDE_PATH); 
 			$input_json = utf8_encode($input_json); 
 			$array_output = json_decode($input_json, true); 
 			return $array_output; 
-        }
+		}
 		function getArticle() { 
 			return $this->jsonArray("blog.json"); 
 		}  

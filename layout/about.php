@@ -1,3 +1,4 @@
+<!-- this file is not used anymore --> 
 <style type="text/CSS"> 
 	.content { 
 		display: block; 
@@ -15,7 +16,7 @@
 <div class="article"> 
 	<div class="headline">About</div> 
 	<div class="content"> 
-		<div class="image"><img src="./images/me.jpg" width="100%" /></div> 
+		<div class="image"><img src="./images/me.jpg" width="100%" alt="Me" /></div> 
 		Hi *, <br /> 
 		<br /> 
 		my name is Marc and I'm a german based freetime webcoder and Junior IT-Consultant (1 year work experience). I'm 26 years old and did my abitur (~ a-levels in the us or matura in austria and italia) back in 2009 and have had professional-courses in german language and biology. 
